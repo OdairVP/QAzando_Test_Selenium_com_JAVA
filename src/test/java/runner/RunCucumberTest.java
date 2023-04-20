@@ -23,6 +23,7 @@ public class RunCucumberTest {
     public static void start(){
          driver = new ChromeDriver();
     }
+
     @AfterClass
     public static void stop(){
         driver.quit();
