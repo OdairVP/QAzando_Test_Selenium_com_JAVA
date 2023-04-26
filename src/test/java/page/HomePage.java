@@ -37,8 +37,8 @@ public class HomePage extends Utils {
     }
 
     public void verificarCupomDesconto(){
-        String texto_cupom = driver.findElement(By.cssSelector("#cupom > h2 > span")).getText();
-//        Assert.assertEquals("O cupom está errado!", " QAZANDO15OFF", texto_cupom);
+        String textoCupom = driver.findElement(By.cssSelector("#cupom > h2 > span")).getText();
+//        Assert.assertEquals("O cupom está errado!", " QAZANDO15OFF", textoCupom);
 //         esse Assert é para verificar se realmente o cupom está correto, mas está dando ERRO!
     }
 }
